@@ -52,7 +52,7 @@ def start_hangman (word):
             char = input(message)
         if not win :
             print("".join(stages))
-            print("you lose, bitch. the word was " +'"' +word+ '".')
+            print("you lose. the word was " +'"' +word+ '".')
         word = input("type the word you want to use for hangman: ")
     
 
